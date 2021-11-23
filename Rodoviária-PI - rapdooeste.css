@@ -278,3 +278,9 @@ footer{
     padding-top: 10px;
     padding: 5px;
 }
+.voltar a{
+    color: black;
+}
+.logo-contato2 a{
+    color: white;
+}
