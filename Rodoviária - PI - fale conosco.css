@@ -1,0 +1,182 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+
+    display: grid;
+    /*Linhas*/
+    grid-template-rows: 135px auto 250px;
+    /*Colunas*/
+    grid-template-columns: 20% auto;
+}
+header{
+
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 100%;
+    background-color:#2225ac;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 68px 0;
+}
+.container-logo{
+
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.container-texto ul a{
+
+    font-size: 29px;
+    text-decoration: none;
+    color: rgb(229, 255, 0);
+    text-transform:uppercase;
+    padding: 10 40px;
+    font-family: 'Rubik', sans-serif;
+    margin-right: 270px;
+}
+.menu li{
+
+    display: inline-block;
+    margin: 80 40px;
+    margin-right: 10px;
+}
+
+.menu li a{
+
+    font-size: 21px;
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase;
+    padding: 10 40px;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.menu li a:hover{
+
+    background-color: rgb(42, 155, 207, 0.8);
+}
+
+.logo-icones{
+
+    padding: 4px;
+}
+main{
+
+    grid-row-start: 3;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #fff;
+    display:flex;
+    align-items: stretch;
+    padding-top: 0px;
+    padding-bottom: justify;
+    font-family: 'Rubik', sans-serif;
+}
+.caixa-conteudo{
+    font-family: 'Rubik', sans-serif;
+}
+.box1{
+
+  display: flex;
+
+                      /* justify-content:center; */
+                  
+                      text-align:center;
+                           margin-left: 220px;
+                            font-size: 20px;
+                                 margin-top: 40px;
+                                 margin-bottom: 40px;
+                                    margin-right: 220px;
+              
+                            
+
+                
+             line-height: 100%;
+         word-spacing: 100%;
+        padding: 40px;
+     width: 60%;
+   
+}
+
+.box1 ul{
+    word-spacing: 3px;
+    margin-left: 15px;
+    margin-top:  10px;
+    background-color: rgb(29, 29, 85);
+    color: rgb(233, 223, 223);
+    border-style:solid;
+    border-radius: 30px;
+    border-color:rgb(29, 29, 85); 
+    text-align: justify;
+}
+
+.marginbox { padding-left: 40px ;
+    padding-right: 40px;
+
+}
+.marginbox1 {
+   justify-content: center;
+
+}
+
+footer{
+
+    grid-row-start: 8;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    width: 100%;
+    background-color: #2225ac;
+    display: inline-flex;
+    align-items: center;
+    padding: 28px 0;
+    justify-content: space-around;
+}
+.logo-contato{
+
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.logo-contato2{
+
+    color: white;
+    font-family: 'Rubik', sans-serif;
+}
+.redesocial{
+
+    color: white;
+    align-items: center;
+    display: inline-flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logo-contato3{
+    padding-top: 10px;
+    padding: 5px;
+}
+.voltar{
+    margin: 12px;
+}
+.voltar p{
+    color: black;
+}
+.logo-contato2 a{
+    color: white;
+}
+
+
+
+
+
+
